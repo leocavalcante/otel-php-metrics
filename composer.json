@@ -1,0 +1,15 @@
+{
+    "require": {
+        "open-telemetry/sdk": "^0.0.17",
+        "symfony/http-client": "^6.2",
+        "guzzlehttp/promises": "^1.5",
+        "php-http/message-factory": "^1.0",
+        "nyholm/psr7": "^1.6",
+        "open-telemetry/sdk-contrib": "^0.0.17"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
