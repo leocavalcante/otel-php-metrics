@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c383749423d5b28c85127922e9e3c94",
+    "content-hash": "60719742158f83e665e0c18e62fe8ae9",
     "packages": [
         {
             "name": "google/protobuf",
@@ -1067,6 +1067,38 @@
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
             "time": "2021-07-14T16:46:02+00:00"
+        },
+        {
+            "name": "swoole/ide-helper",
+            "version": "5.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoole/ide-helper.git",
+                "reference": "16cfee44a6ec92254228c39bcab2fb8ae74cc2ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/16cfee44a6ec92254228c39bcab2fb8ae74cc2ea",
+                "reference": "16cfee44a6ec92254228c39bcab2fb8ae74cc2ea",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team Swoole",
+                    "email": "team@swoole.com"
+                }
+            ],
+            "description": "IDE help files for Swoole.",
+            "support": {
+                "issues": "https://github.com/swoole/ide-helper/issues",
+                "source": "https://github.com/swoole/ide-helper/tree/5.0.2"
+            },
+            "time": "2023-03-20T06:05:55+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

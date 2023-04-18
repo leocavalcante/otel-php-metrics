@@ -5,7 +5,8 @@
         "guzzlehttp/promises": "^1.5",
         "php-http/message-factory": "^1.0",
         "nyholm/psr7": "^1.6",
-        "open-telemetry/sdk-contrib": "^0.0.17"
+        "open-telemetry/sdk-contrib": "^0.0.17",
+        "swoole/ide-helper": "^5.0"
     },
     "config": {
         "allow-plugins": {
