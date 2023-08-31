@@ -13,7 +13,7 @@ use OpenTelemetry\Contrib\Otlp\OtlpUtil;
 require 'vendor/autoload.php';
 
 $transport = (new GrpcTransportFactory())->create('http://localhost:4317' . OtlpUtil::method(Signals::METRICS));
-$exporter = new MetricExporter($transport, Temporality::CUMULATIVE);
+$exporter = new MetricExporter($transport);
 $reader = new ExportingReader($exporter, ClockFactory::getDefault());
 
 $meter = MeterProvider::builder()

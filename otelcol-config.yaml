@@ -6,9 +6,14 @@ receivers:
 exporters:
   prometheus:
     endpoint: 0.0.0.0:8080
-
+  otlp:
+    endpoint: https://otlp.nr-data.net:4317
+    headers:
+      api-key: ${NEW_RELIC_LICENSE_KEY}
+    
 service:
   pipelines:
     metrics:
       receivers: [otlp]
-      exporters: [prometheus]
+      exporters: [prometheus, otlp]
+
